@@ -31,3 +31,78 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Ignore list for Eagle, a PCB layout tool
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+
+# Eagle project file
+# It contains a serial number and references to the file structure
+# on your computer.
+# comment the following line if you want to have your project file included.
+# eagle.epf
+
+# CAM files
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+*.dri
+*.drl
+*.gpi
+*.pls
+*.drd
+*.drd.*
+*.info
+*.eps
+
+
+# Ignore list for Quartus II generated files
+
+*.bak
+*.cmp
+*.done
+*.eqn
+*.hex
+*.html
+*.jdi
+*.mif
+*.pin
+*.pof
+*.ptf.*
+*.qar
+*.log
+*.qws
+*.rpt
+*.smsg
+*.sof
+*.sopc_builder
+*.summary
+*.tcl
+
+# ignore Quartus II generated folders
+
+db/
+incremental_db/
+simulation/
+timing/
+greybox_tmp/
+output_files/
+MotorController/FPGA/MN1806_FPGA_O/output_file.map
+*.zip
+
+# ignore C generated folders
+
+*.atsuo
+*.bin
+
+
