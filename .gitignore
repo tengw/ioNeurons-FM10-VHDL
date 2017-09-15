@@ -87,7 +87,6 @@
 *.sof
 *.sopc_builder
 *.summary
-*.tcl
 
 # ignore Quartus II generated folders
 
